@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes/routes.js');
+const config = require('./config/config');
+const multer = require('multer');
 
 const app = express();
 // var port = normalizePort(process.env.PORT || '80');
@@ -21,7 +23,8 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static(__dirname + '/public'));
 
-app.use('/api', routes);
+
+app.use('/api',routes);
 
 app.listen(80, function () {
     console.log("server is running on Port:" , 80);
