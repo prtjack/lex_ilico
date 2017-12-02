@@ -25,8 +25,8 @@ app.use(express.static(__dirname + '/public'));
 
 app.use('/api',routes);
 
-app.listen(8080, function () {
-    console.log("server is running on Port:" , 8080);
+app.listen(80, function () {
+    console.log("server is running on Port:" , 80);
 });
 
 module.exports = app;
