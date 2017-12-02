@@ -3,7 +3,7 @@ var config = {
     "port": process.env.PORT || 80,
     "secretKey": "MySecretKey",
     "appHost": "",
-    "pdfuploadLocation": "./public/pdf",
+    "pdfuploadLocation": "public/pdf",
     "outputJsonLocation": "",
 }
 
