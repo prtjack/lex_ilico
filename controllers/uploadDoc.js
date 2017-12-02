@@ -8,7 +8,7 @@ const path = require('path');
 
 
 function uploadDoc(req, res, next) {
-    console.log(req.file);
+    console.log(req.files);
     res.send('file upload succesfully!');
     // pdf2img.setOptions({
     //     type: 'png', // png or jpg, default jpg 
