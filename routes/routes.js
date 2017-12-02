@@ -18,7 +18,7 @@ var upload = multer({
 
 const uploadCtrl = require('../controllers/uploadDoc.js');
 
-router.post('/test', upload.single('upload'), uploadCtrl.uploadDoc);
+router.post('/test', upload.array('upload'), uploadCtrl.uploadDoc);
 
 
 
