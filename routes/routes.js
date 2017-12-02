@@ -7,8 +7,7 @@ var storage = multer.diskStorage({
         cb(null, config.pdfuploadLocation)
     },
     filename: function (req, file, cb) {
-       console.log(file);
-        cb(null, file.originalname) 
+        cb(null, file.originalname)
     }
 })
 
@@ -19,8 +18,10 @@ var upload = multer({
 
 const uploadCtrl = require('../controllers/uploadDoc.js');
 const type = upload.array('upload');
+
 router.post('/test', type, uploadCtrl.uploadDoc);
 
+// router.post('/vision-api', uploadCtrl.visionApi);
 
 
 module.exports = router;
