@@ -1,0 +1,178 @@
+[
+    {
+        "name": "jurisdiction of court",
+        "keywords": [
+            "metropolitan magistrate NI act-12, jaipur",
+            "metropolitan magistrate NI act-13, jaipur",
+            "metropolitan magistrate NI act-14, jaipur"
+        ],
+        "endwith": "",
+        "type": "find",
+        "data": ""
+    },
+    {
+        "name": "cc no.",
+        "keywords": "cc no.",
+        "end": "."
+    },
+    {
+        "name": "complainant name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 1
+    },
+    {
+        "name": "complainant's father name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 2
+    },
+    {
+        "name": "complainant's age",
+        "keywords": [
+            "age"
+        ],
+        "end": "years"
+    },
+    {
+        "name": "complainant's address",
+        "keywords": "r/o,",
+        "end": "."
+    },
+    {
+        "name": "accused name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 3
+    },
+    {
+        "name": "accused's father name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 4
+    },
+    {
+        "name": "accused age",
+        "keywords": [
+            "age"
+        ],
+        "end": "years",
+        "data": ""
+    },
+    {
+        "name": "accused address",
+        "keywords": "r/o,",
+        "end": "."
+    },
+    {
+        "name": "agreement amount",
+        "keywords": [
+            "amount of rs."
+        ],
+        "end": "/-"
+    },
+    {
+        "name": "agreement type",
+        "keywords": [
+            "loan agreement",
+            "rent agreement",
+            "license agreement"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "date of agreement",
+        "keywords": [
+            "agreement dated"
+        ],
+        "end": "in"
+    },
+    {
+        "name": "cheque number",
+        "keywords": [
+            "bearing no."
+        ],
+        "end": "dated"
+    },
+    {
+        "name": "date on cheque",
+        "keywords": [
+            "dated"
+        ],
+        "end": "for"
+    },
+    {
+        "name": "rupees",
+        "keywords": [
+            "rs."
+        ],
+        "end": "/-"
+    },
+    {
+        "name": "date of presentation",
+        "keywords": [
+            "presented on"
+        ],
+        "end": "as"
+    },
+    {
+        "name": "date of return memo",
+        "keywords": [
+            "return memo on"
+        ],
+        "end": "stating"
+    },
+    {
+        "name": "reason for dishonor",
+        "keywords": [
+            "insufficient fund",
+            "stop payment",
+            "sign mismatch"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "drawn of bank",
+        "keywords": [
+            "HDFC Bank",
+            "AXIX Bank",
+            "SBI Bank"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "bank branch",
+        "keywords": [
+            "jagatpura",
+            "malviya nagar",
+            "mansarovar",
+            "ajmeri gate",
+            "raja park"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "police station",
+        "keywords": [
+            "mansarovar",
+            "jagatpura",
+            "durgapura",
+            "ajmeri gate",
+            "raja park"
+        ],
+        "end": "",
+        "type": "find"
+    }
+]

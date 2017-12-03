@@ -1,0 +1,82 @@
+[
+    {
+        "name": "agreement amount",
+        "keywords": [
+            "amount of rs."
+        ],
+        "end": "/-"
+    },
+    {
+        "name": "agreement type",
+        "keywords": [
+            "loan agreement",
+            "rent agreement",
+            "license agreement"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "date of agreement",
+        "keywords": [
+            "today on"
+        ],
+        "end": "between"
+    },
+    {
+        "name": "complainant name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 1
+    },
+    {
+        "name": "complainant's father name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 2
+    },
+    {
+        "name": "complainant's age",
+        "keywords": [
+            "age"
+        ],
+        "end": "years"
+    },
+    {
+        "name": "complainant's address",
+        "keywords": "r/o,",
+        "end": "."
+    },
+    {
+        "name": "accused name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 3
+    },
+    {
+        "name": "accused's father name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 4
+    },
+    {
+        "name": "accused age",
+        "keywords": [
+            "age"
+        ],
+        "end": "years"
+    },
+    {
+        "name": "accused address",
+        "keywords": "r/o,",
+        "end": "."
+    }
+]

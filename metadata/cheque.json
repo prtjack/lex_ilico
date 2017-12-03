@@ -1,0 +1,52 @@
+[
+    {
+        "name": "cheque holder",
+        "keywords": [
+            "pay"
+        ],
+        "end": "or"
+    },
+    {
+        "name": "cheque date",
+        "keywords": [
+            "date"
+        ],
+        "end": " "
+    },
+    {
+        "name": "cheque ruppes",
+        "keywords": [
+            ""
+        ],
+        "end": " "
+    },
+    {
+        "name": "cheque amount",
+        "keywords": [
+            ""
+        ],
+        "end": " "
+    },
+    {
+        "name": "cheque issuer",
+        "keywords": [
+            ""
+        ],
+        "end": " "
+    },
+    {
+        "name": "cheque number",
+        "keywords": [
+            ""
+        ],
+        "end": " "
+    },
+    {
+        "name": "cheque micr",
+        "keywords": [
+            ""
+        ],
+        "end": " "
+    }
+   
+]

@@ -21,6 +21,11 @@ const type = upload.array('upload');
 
 router.post('/test', type, uploadCtrl.uploadDoc);
 
+router.get('/complaint', function(req,res){
+    let data= {};
+
+    res.json(data);
+})
 // router.post('/vision-api', uploadCtrl.visionApi);
 
 

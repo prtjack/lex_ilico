@@ -1,0 +1,128 @@
+[
+    {
+        "name": "date of notice",
+        "keywords": [
+            "date:"
+        ],
+        "end": "m"
+    },
+    {
+        "name": "accused name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 1
+    },
+    {
+        "name": "accused's father name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 2
+    },
+    {
+        "name": "accused age",
+        "keywords": [
+            "age"
+        ],
+        "end": "years"
+    },
+    {
+        "name": "accused address",
+        "keywords": "o,",
+        "end": "Sub"
+    },
+    {
+        "name": "agreement amount",
+        "keywords": [
+            "amount of rs."
+        ],
+        "end": "-"
+    },
+    {
+        "name": "agreement type",
+        "keywords": [
+            "loan agreement",
+            "rent agreement",
+            "license agreement"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "date of agreement",
+        "keywords": [
+            "agreement dated"
+        ],
+        "end": "[0-9] "
+    },
+    {
+        "name": "cheque number",
+        "keywords": [
+            "bearing no."
+        ],
+        "end": "d"
+    },
+    {
+        "name": "date on cheque",
+        "keywords": [
+            "dated"
+        ],
+        "end": "of"
+    },
+    {
+        "name": "cheque amount",
+        "keywords": [
+            "rs."
+        ],
+        "end": "in"
+    },
+    {
+        "name": "date of presentation",
+        "keywords": [
+            "presented on"
+        ],
+        "end": "as"
+    },
+    {
+        "name": "date of return memo",
+        "keywords": [
+            "return memo on"
+        ],
+        "end": "stating"
+    },
+    {
+        "name": "reason for dishonor",
+        "keywords": [
+            "insufficient fund",
+            "stop payment",
+            "sign mismatch"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "drawn of bank",
+        "keywords": [
+            "HDFC Bank",
+            "AXIX Bank",
+            "SBI Bank"
+        ],
+        "end": "",
+        "type": "find"
+    },
+    {
+        "name": "bank branch",
+        "keywords": [
+            "jagatpura",
+            "malviya nagar",
+            "mansarovar",
+            "ajmeri gate",
+            "raja park"
+        ],
+        "end": "",
+        "type": "find"
+    }
+]

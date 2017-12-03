@@ -1,0 +1,45 @@
+[
+    {
+        "name": "complaint",
+        "keywords": [
+            "Complaint filed",
+            "Sec. 142 of negotiable instruments act."
+        ]
+    },
+    {
+        "name": "vakalatnama",
+        "keywords": [
+            "vakalatnama"
+        ]
+    },
+    {
+        "name": "affidavit",
+        "keywords": [
+            "affidavit"
+        ]
+    },
+    {
+        "name": "list of evidences",
+        "keywords": [
+            "list of evidences"
+        ]
+    },
+    {
+        "name": "notice",
+        "keywords": [
+            "Under Section 138 of Negotiable Instrument Act, 1881"
+        ]
+    },
+    {
+        "name": "cheque",
+        "keywords": [
+            "or bearer"
+        ]
+    },
+    {
+        "name": "return memo",
+        "keywords": [
+            "rejected instrument advice"
+        ]
+    }
+]

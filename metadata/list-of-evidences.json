@@ -1,0 +1,70 @@
+[
+    {
+        "name": "jurisdiction of court",
+        "keywords": [
+            "metropolitan magistrate NI act-12, jaipur",
+            "metropolitan magistrate NI act-13, jaipur",
+            "metropolitan magistrate NI act-14, jaipur"
+        ],
+        "endwith": "",
+        "type": "find"
+    },
+    {
+        "name": "complainant name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 1
+    },
+    {
+        "name": "accused name",
+        "keywords": [
+            "mr."
+        ],
+        "end": ",",
+        "index": 3
+    },
+    {
+        "name": "original cheque",
+        "keywords": [
+            "date"
+        ],
+        "end": ""
+    },
+    {
+        "name": "original return memo",
+        "keywords": [
+            "date"
+        ],
+        "end": ""
+    },
+    {
+        "name": "copy of notice",
+        "keywords": [
+            "date"
+        ],
+        "end": ""
+    },
+    {
+        "name": "copy of loan agreement",
+        "keywords": [
+            "date"
+        ],
+        "end": ""
+    },
+    {
+        "name": "copy of loan agreement",
+        "keywords": [
+            "date"
+        ],
+        "end": ""
+    },
+    {
+        "name": "postal receipt",
+        "keywords": [
+            "date"
+        ],
+        "end": ""
+    }
+]
